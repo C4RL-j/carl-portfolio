@@ -1,6 +1,8 @@
 {
-  "framework": "nextjs",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
   "buildCommand": "npm run build",
+  "outputDirectory": "out",
   "headers": [
     {
       "source": "/opengraph-image",
